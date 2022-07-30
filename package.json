@@ -49,13 +49,16 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
     "@dcloudio/types": "^3.0.7",
     "@dcloudio/uni-automator": "3.0.0-alpha-3040820220424001",
     "@dcloudio/uni-cli-shared": "3.0.0-alpha-3040820220424001",
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3040820220424001",
+    "eslint": "^8.20.0",
     "typescript": "^4.7.4",
     "unocss": "^0.45.1",
     "unocss-preset-weapp": "^0.1.5",
+    "unplugin-auto-import": "^0.10.3",
     "unplugin-transform-we-class": "^0.1.6",
     "vite": "^2.9.14"
   }
