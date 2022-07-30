@@ -17,6 +17,8 @@ export default defineConfig({
 
     // https://github.com/antfu/unocss
     Unocss(),
+
+    // https://github.com/MellowCo/unplugin-transform-we-class
     transformWeClass(),
 
     // https://github.com/antfu/unplugin-auto-import
