@@ -46,6 +46,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-alpha-3050320220727002",
     "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3050320220727002",
     "@meoc/utils": "^0.1.1",
+    "pinia": "^2.0.17",
     "vue": "^3.2.37"
   },
   "devDependencies": {
