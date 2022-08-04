@@ -25,7 +25,7 @@ specifiers:
   pinia: ^2.0.17
   typescript: ^4.7.4
   unocss: ^0.45.1
-  unocss-preset-weapp: ^0.1.6
+  unocss-preset-weapp: ^0.1.7
   unplugin-auto-import: ^0.10.3
   unplugin-transform-we-class: ^0.1.10
   vite: ^2.9.14
@@ -59,7 +59,7 @@ devDependencies:
   eslint: 8.20.0
   typescript: 4.7.4
   unocss: 0.45.1_vite@2.9.14
-  unocss-preset-weapp: 0.1.6
+  unocss-preset-weapp: 0.1.7
   unplugin-auto-import: 0.10.3_vite@2.9.14
   unplugin-transform-we-class: 0.1.10_vite@2.9.14
   vite: 2.9.14
@@ -4585,8 +4585,8 @@ packages:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
     engines: {node: '>= 10.0.0'}
 
-  /unocss-preset-weapp/0.1.6:
-    resolution: {integrity: sha512-u6u3ghDOLXbyzwAobpZ9LviBko7xaZSlCLZtgt7pwJvsgNmZgjBXhsdmVIDwrNMyD7iBx7NIODlTYQlQJn/evw==}
+  /unocss-preset-weapp/0.1.7:
+    resolution: {integrity: sha512-of9MOQ7N6J/HKfrP8WP/blEBd5LKNmP0eni12VD/ANV/34UrJ30LmOl7rxOKjwb6hvdY82zb3V0sqTFZMSmkew==}
     dependencies:
       '@unocss/core': 0.45.1
     dev: true
