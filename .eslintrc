@@ -1,3 +1,18 @@
 {
-  "extends":"@antfu"
+  "extends": "@antfu",
+  "rules": {
+    // if else try catch 风格
+    // ```
+    // try {                       try {
+    //   loading()                   loading()
+    // }                 ==>       } catch (e) {
+    // catch (e) {                     hideLoading()
+    //   hideLoading()             }
+    // }
+    // ```
+    "@typescript-eslint/brace-style": ["error", "1tbs"],
+
+    // if else 必须添加{} if()do() => if(){ do() }
+    "curly":["error", "multi-line"]
+  }
 }
