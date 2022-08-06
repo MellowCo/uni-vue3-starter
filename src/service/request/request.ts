@@ -3,5 +3,5 @@ interface RequestConfig {
 }
 
 export function createRequest(config: RequestConfig) {
-  return 'request'
+  return config
 }

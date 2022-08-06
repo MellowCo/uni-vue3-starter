@@ -25,16 +25,8 @@ export default defineConfig({
     AutoImport({
       imports: [
         'vue',
-        {
-          '@dcloudio/uni-app': [
-            'onLaunch',
-            'onShow',
-            'onHide',
-            'onLoad',
-            'onPullDownRefresh',
-            'onReachBottom',
-          ],
-        },
+        'uni-app',
+        'pinia',
       ],
       dts: true,
       vueTemplate: true,
