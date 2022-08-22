@@ -50,19 +50,19 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.25.2",
+    "@antfu/eslint-config": "^0.26.1",
     "@dcloudio/types": "^3.0.7",
     "@dcloudio/uni-automator": "3.0.0-alpha-3050320220727002",
     "@dcloudio/uni-cli-shared": "3.0.0-alpha-3050320220727002",
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-3050320220727002",
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3050320220727002",
     "@types/node": "^18.6.4",
-    "eslint": "^8.21.0",
+    "eslint": "^8.22.0",
     "typescript": "^4.7.4",
-    "unocss": "^0.45.5",
-    "unocss-preset-weapp": "^0.1.7",
-    "unplugin-auto-import": "^0.11.0",
-    "unplugin-transform-we-class": "^0.1.10",
+    "unocss": "^0.45.9",
+    "unocss-preset-weapp": "^0.1.9",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-transform-we-class": "^0.1.13",
     "vite": "^2.9.14"
   }
 }

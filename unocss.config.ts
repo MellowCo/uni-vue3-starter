@@ -1,5 +1,7 @@
 import presetWeapp from 'unocss-preset-weapp'
-export default {
+import {defineConfig} from 'unocss';
+
+export default defineConfig({
   presets: [
     // https://github.com/MellowCo/unocss-preset-weapp
     presetWeapp(),
@@ -15,4 +17,4 @@ export default {
       'bg': 'bg-[#f6f7fb]',
     },
   ],
-}
+})
