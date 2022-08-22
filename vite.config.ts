@@ -4,6 +4,7 @@ import uni from '@dcloudio/vite-plugin-uni'
 import Unocss from 'unocss/vite'
 import transformWeClass from 'unplugin-transform-we-class/vite'
 import AutoImport from 'unplugin-auto-import/vite'
+import { presetAttributifyWechat } from 'unplugin-unocss-attributify-wechat/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -24,6 +25,9 @@ export default defineConfig({
     // entry module not found, have you add `import 'uno.css'` in your main entry?
     // 导致打包终止
     process.env.UNI_COMPILER !== 'nvue' ? Unocss() : undefined,
+
+    // https://github.com/MellowCo/unplugin-unocss-attributify-wechat
+    presetAttributifyWechat(),
 
     // https://github.com/MellowCo/unplugin-transform-we-class
     transformWeClass(),

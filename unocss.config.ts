@@ -1,5 +1,5 @@
 import presetWeapp from 'unocss-preset-weapp'
-import {defineConfig} from 'unocss';
+import { defineConfig } from 'unocss'
 
 export default defineConfig({
   presets: [
