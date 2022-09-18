@@ -1,4 +1,5 @@
 import presetWeapp from 'unocss-preset-weapp'
+import { transformerAttributify, transformerClass } from 'unocss-preset-weapp/transformer'
 import { defineConfig } from 'unocss'
 
 export default defineConfig({
@@ -16,5 +17,11 @@ export default defineConfig({
       'text-c4': 'text-[#CCCCCC]',
       'bg': 'bg-[#f6f7fb]',
     },
+  ],
+  transformers: [
+    // https://github.com/MellowCo/unplugin-unocss-attributify-wechat
+    transformerAttributify(),
+    // https://github.com/MellowCo/unplugin-transform-we-class
+    transformerClass(),
   ],
 })
