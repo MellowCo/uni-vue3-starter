@@ -19,9 +19,10 @@ export default defineConfig({
     },
   ],
   transformers: [
-    // https://github.com/MellowCo/unplugin-unocss-attributify-wechat
+    // https://github.com/MellowCo/unplugin-attributify-to-class
     transformerAttributify(),
-    // https://github.com/MellowCo/unplugin-transform-we-class
+
+    // https://github.com/MellowCo/unplugin-transform-class
     transformerClass(),
   ],
 })
