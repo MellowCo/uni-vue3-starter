@@ -4,12 +4,15 @@ type ServiceEnv = Record<ServiceEnvType, ServiceEnvConfig>
 const serviceEnv: ServiceEnv = {
   dev: {
     url: 'http://localhost:8080',
+    json: 'http://localhost:8080',
   },
   test: {
     url: 'http://localhost:8080',
+    json: 'http://localhost:8080',
   },
   prod: {
     url: 'http://localhost:8080',
+    json: 'http://localhost:8080',
   },
 }
 

@@ -23,7 +23,8 @@ export const NETWORK_ERROR_CODE = 'NETWORK_ERROR'
 export const NETWORK_ERROR_MSG = '网络不可用~'
 
 /** 请求不成功各种状态的错误 */
-export const ERROR_STATUS = {
+/** 请求不成功各种状态的错误 */
+export const ERROR_STATUS: Record<number | string, string> = {
   400: '400: 请求出现语法错误~',
   401: '401: 用户未授权~',
   403: '403: 服务器拒绝访问~',
