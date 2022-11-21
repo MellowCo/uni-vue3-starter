@@ -1,4 +1,4 @@
-export enum ENUM_STORAGE_KEY {
+export enum StorageKey {
   /** 用户token */
   token = '__TOKEN__',
   /** 用户刷新token */
