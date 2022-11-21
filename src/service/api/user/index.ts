@@ -1,4 +1,4 @@
-import { apiResquest } from '~/service/request'
+import { apiResquest } from '@/service/request'
 
 interface IUser {
   name: string

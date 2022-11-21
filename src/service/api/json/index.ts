@@ -1,4 +1,4 @@
-import { jsonRequest } from '~/service/request'
+import { jsonRequest } from '@/service/request'
 
 interface IData {
   b: string

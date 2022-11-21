@@ -1,4 +1,4 @@
-import { IError } from '~/typings/error'
+import { IError } from '@/typings/error'
 
 /**
  * 自定义错误

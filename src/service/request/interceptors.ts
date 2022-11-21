@@ -1,5 +1,5 @@
-import { ERROR_STATUS } from '~/config'
-import { createError } from '~/utils'
+import { ERROR_STATUS } from '@/config'
+import { createError } from '@/utils'
 
 /**
  * 添加token，请求拦截器

@@ -1,6 +1,6 @@
 import { invokeArrayFns } from '@meoc/utils'
-import { DEFAULT_REQUEST_ERROR_MSG, REQUEST_TIMEOUT } from '~/config'
-import { getErrorMsg, hideLoading, showErrorModal, showLoading, showToast } from '~/utils'
+import { DEFAULT_REQUEST_ERROR_MSG, REQUEST_TIMEOUT } from '@/config'
+import { getErrorMsg, hideLoading, showErrorModal, showLoading, showToast } from '@/utils'
 
 let loadingCount = 0
 
