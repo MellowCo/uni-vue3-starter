@@ -12,7 +12,7 @@ interface IRoute {
   /**
    * 路由参数
    */
-  params?: any
+  params?: Record<string, any>
   /**
    * 回退的层数 uni.navigateBack
    * @default 1
@@ -74,25 +74,25 @@ export function route({ type, url, params, delta = 1 }: IRoute) {
   }
 }
 
-export function to(url: string, params = undefined) {
+export function to(url: string, params?: Record<string, any>) {
   route({
     type: ENUM_ROUTE_TYPE.TO, url, params,
   })
 }
 
-export function redirect(url: string, params = undefined) {
+export function redirect(url: string, params?: Record<string, any>) {
   route({
     type: ENUM_ROUTE_TYPE.REDIRECT, url, params,
   })
 }
 
-export function tabbar(url: string, params = undefined) {
+export function tabbar(url: string, params?: Record<string, any>) {
   route({
     type: ENUM_ROUTE_TYPE.TAB, url, params,
   })
 }
 
-export function relaunch(url: string, params = undefined) {
+export function relaunch(url: string, params?: Record<string, any>) {
   route({
     type: ENUM_ROUTE_TYPE.RELAUNCH, url, params,
   })
