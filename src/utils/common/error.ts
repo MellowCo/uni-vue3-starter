@@ -1,3 +1,4 @@
+import { isObject } from '@meoc/utils'
 import { IError } from '@/typings/error'
 
 /**

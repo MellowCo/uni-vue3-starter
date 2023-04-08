@@ -21,7 +21,7 @@ export function createRequest(baseRequestConfig: RequestConfig, interceptorConfi
 
     // 请求拦截器
     if (requestInterceptors) {
-      invokeArrayFns(requestInterceptors, requestConfig)
+      requestConfig = invokeArrayFns(requestInterceptors, requestConfig)
     }
 
     // 设置默认值
@@ -43,7 +43,7 @@ export function createRequest(baseRequestConfig: RequestConfig, interceptorConfi
         success(result) {
           try {
             // 响应拦截器
-            invokeArrayFns(responseInterceptors as Function[], result)
+            result = invokeArrayFns(responseInterceptors as Function[], result)
           } catch (error) {
             // 自定义错误优先
             const msg = errMsg || getErrorMsg(error)
@@ -96,4 +96,3 @@ export function createRequest(baseRequestConfig: RequestConfig, interceptorConfi
     get,
   }
 }
-
